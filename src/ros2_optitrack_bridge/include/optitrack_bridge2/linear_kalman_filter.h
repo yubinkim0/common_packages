@@ -52,11 +52,6 @@ private:
     geometry_msgs::msg::TwistStamped twist, twist_raw;
     nav_msgs::msg::Odometry odom;
 
-    bool ang_initialized_ {false};
-    rclcpp::Time ang_t_old_;
-    Eigen::Quaterniond q_old_;              // 이전 quaternion
-    Eigen::Vector3d omega_est_{0,0,0};      // 추정된 body 각속도
-
     rclcpp::Time t_old, t_new;
     bool initialized = false;
 
