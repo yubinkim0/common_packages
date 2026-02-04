@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/yubinkim/workspace/common_packages/build_jazzy/ros2_optitrack_bridge/odometry" "TARGETS" "odometry" "DESTINATION" "lib/ros2_optitrack_bridge")

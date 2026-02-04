@@ -1,1 +1,0 @@
-/home/yubinkim/workspace/common_packages/src/px4_msgs/msg/Ping.msg

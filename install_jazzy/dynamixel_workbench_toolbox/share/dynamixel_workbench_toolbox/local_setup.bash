@@ -1,1 +1,0 @@
-/home/yubinkim/workspace/common_packages/build_jazzy/dynamixel_workbench_toolbox/ament_cmake_environment_hooks/local_setup.bash

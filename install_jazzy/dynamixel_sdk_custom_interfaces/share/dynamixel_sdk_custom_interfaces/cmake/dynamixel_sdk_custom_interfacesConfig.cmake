@@ -1,1 +1,0 @@
-/home/yubinkim/workspace/common_packages/build_jazzy/dynamixel_sdk_custom_interfaces/ament_cmake_core/dynamixel_sdk_custom_interfacesConfig.cmake

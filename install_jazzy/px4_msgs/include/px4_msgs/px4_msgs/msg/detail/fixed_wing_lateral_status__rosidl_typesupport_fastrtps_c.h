@@ -1,1 +1,0 @@
-/home/yubinkim/workspace/common_packages/build_jazzy/px4_msgs/rosidl_typesupport_fastrtps_c/px4_msgs/msg/detail/fixed_wing_lateral_status__rosidl_typesupport_fastrtps_c.h

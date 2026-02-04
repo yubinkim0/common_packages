@@ -1,1 +1,0 @@
-/home/yubinkim/workspace/common_packages/build_jazzy/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/rover_steering_setpoint__type_support.h

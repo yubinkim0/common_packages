@@ -1,9 +1,14 @@
+# Ignore build/ directory and its contents
 build/
 build_jazzy/
 build_humble/
+
+# Ignore install/ directory and its contents
 install/
 install_jazzy/
 install_humble/
+
+# Ignore log/ directory and its contents
 log/
 log_jazzy/
 log_humble/

@@ -1,1 +1,0 @@
-/home/yubinkim/workspace/common_packages/build_jazzy/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/timesync_status__functions.h

@@ -1,1 +1,0 @@
-/home/yubinkim/workspace/common_packages/build_jazzy/dynamixel_sdk_custom_interfaces/rosidl_generator_cpp/dynamixel_sdk_custom_interfaces/msg/set_position.hpp

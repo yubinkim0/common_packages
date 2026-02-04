@@ -1,1 +1,0 @@
-/home/yubinkim/workspace/common_packages/src/DynamixelSDK/ros/dynamixel_sdk/include/dynamixel_sdk/group_sync_write.h

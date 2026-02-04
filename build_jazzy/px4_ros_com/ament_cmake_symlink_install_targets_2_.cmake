@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/yubinkim/workspace/common_packages/build_jazzy/px4_ros_com/debug_vect_advertiser" "TARGETS" "debug_vect_advertiser" "DESTINATION" "lib/px4_ros_com")
