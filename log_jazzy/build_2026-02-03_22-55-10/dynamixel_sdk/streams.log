@@ -1,0 +1,203 @@
+[0.019s] Invoking command in '/home/yubinkim/workspace/common_packages/build_jazzy/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yubinkim/workspace/hexa_teleoperation/install_jazzy/dynamixel_test_ctrl:/home/yubinkim/workspace/omni_hexa/install_jazzy/dynamixel_test_ctrl:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yubinkim/workspace/common_packages/build_jazzy/dynamixel_sdk -- -j16 -l16
+[0.126s] [  0%] Built target ament_cmake_python_symlink_dynamixel_easy_sdk
+[0.126s] [  0%] Built target ament_cmake_python_symlink_dynamixel_sdk
+[0.129s] [100%] Built target dynamixel_sdk
+[0.399s] running egg_info
+[0.404s] running egg_info
+[0.416s] writing dynamixel_easy_sdk.egg-info/PKG-INFO
+[0.416s] writing dependency_links to dynamixel_easy_sdk.egg-info/dependency_links.txt
+[0.417s] writing top-level names to dynamixel_easy_sdk.egg-info/top_level.txt
+[0.422s] writing dynamixel_sdk.egg-info/PKG-INFO
+[0.423s] writing dependency_links to dynamixel_sdk.egg-info/dependency_links.txt
+[0.423s] writing top-level names to dynamixel_sdk.egg-info/top_level.txt
+[0.463s] reading manifest file 'dynamixel_easy_sdk.egg-info/SOURCES.txt'
+[0.463s] writing manifest file 'dynamixel_easy_sdk.egg-info/SOURCES.txt'
+[0.471s] reading manifest file 'dynamixel_sdk.egg-info/SOURCES.txt'
+[0.471s] writing manifest file 'dynamixel_sdk.egg-info/SOURCES.txt'
+[0.498s] [100%] Built target ament_cmake_python_build_dynamixel_easy_sdk_egg
+[0.505s] [100%] Built target ament_cmake_python_build_dynamixel_sdk_egg
+[0.524s] Invoked command in '/home/yubinkim/workspace/common_packages/build_jazzy/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yubinkim/workspace/hexa_teleoperation/install_jazzy/dynamixel_test_ctrl:/home/yubinkim/workspace/omni_hexa/install_jazzy/dynamixel_test_ctrl:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yubinkim/workspace/common_packages/build_jazzy/dynamixel_sdk -- -j16 -l16
+[0.540s] Invoking command in '/home/yubinkim/workspace/common_packages/build_jazzy/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yubinkim/workspace/hexa_teleoperation/install_jazzy/dynamixel_test_ctrl:/home/yubinkim/workspace/omni_hexa/install_jazzy/dynamixel_test_ctrl:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yubinkim/workspace/common_packages/build_jazzy/dynamixel_sdk
+[0.553s] -- Install configuration: ""
+[0.554s] -- Execute custom install script
+[0.555s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/include//dynamixel_easy_sdk/connector.hpp
+[0.573s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/include//dynamixel_easy_sdk/control_table.hpp
+[0.588s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/include//dynamixel_easy_sdk/data_types.hpp
+[0.601s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/include//dynamixel_easy_sdk/dynamixel_easy_sdk.hpp
+[0.615s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/include//dynamixel_easy_sdk/dynamixel_error.hpp
+[0.631s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/include//dynamixel_easy_sdk/group_executor.hpp
+[0.648s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/include//dynamixel_easy_sdk/motor.hpp
+[0.669s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/include//dynamixel_sdk/dynamixel_sdk.h
+[0.687s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/include//dynamixel_sdk/group_bulk_read.h
+[0.705s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/include//dynamixel_sdk/group_bulk_write.h
+[0.720s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/include//dynamixel_sdk/group_fast_bulk_read.h
+[0.734s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/include//dynamixel_sdk/group_fast_sync_read.h
+[0.749s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/include//dynamixel_sdk/group_handler.h
+[0.764s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/include//dynamixel_sdk/group_sync_read.h
+[0.784s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/include//dynamixel_sdk/group_sync_write.h
+[0.800s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/include//dynamixel_sdk/packet_handler.h
+[0.814s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/include//dynamixel_sdk/port_handler.h
+[0.827s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/include//dynamixel_sdk/port_handler_arduino.h
+[0.841s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/include//dynamixel_sdk/port_handler_linux.h
+[0.859s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/include//dynamixel_sdk/port_handler_mac.h
+[0.877s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/include//dynamixel_sdk/port_handler_windows.h
+[0.895s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/include//dynamixel_sdk/protocol1_packet_handler.h
+[0.910s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/include//dynamixel_sdk/protocol2_packet_handler.h
+[0.926s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/share/dynamixel_sdk/control_table/2xc430_w250.model
+[0.941s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/share/dynamixel_sdk/control_table/2xl430_w250.model
+[0.956s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/share/dynamixel_sdk/control_table/dynamixel.model
+[0.971s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/share/dynamixel_sdk/control_table/h42_20_s300_ra.model
+[0.985s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/share/dynamixel_sdk/control_table/h54_100_s500_ra.model
+[0.999s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/share/dynamixel_sdk/control_table/h54_200_s500_ra.model
+[1.013s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/share/dynamixel_sdk/control_table/m42_10_s260_ra.model
+[1.027s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/share/dynamixel_sdk/control_table/m54_40_s250_ra.model
+[1.042s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/share/dynamixel_sdk/control_table/m54_60_s250_ra.model
+[1.056s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/share/dynamixel_sdk/control_table/mx_106.model
+[1.071s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/share/dynamixel_sdk/control_table/mx_28.model
+[1.085s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/share/dynamixel_sdk/control_table/mx_64.model
+[1.100s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/share/dynamixel_sdk/control_table/ph42_020_s300.model
+[1.114s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/share/dynamixel_sdk/control_table/ph54_100_s500.model
+[1.128s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/share/dynamixel_sdk/control_table/ph54_200_s500.model
+[1.142s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/share/dynamixel_sdk/control_table/pm42_010_s260.model
+[1.156s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/share/dynamixel_sdk/control_table/pm54_040_s250.model
+[1.170s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/share/dynamixel_sdk/control_table/pm54_060_s250.model
+[1.184s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/share/dynamixel_sdk/control_table/rh_p12_rn.model
+[1.198s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/share/dynamixel_sdk/control_table/xc330_m181.model
+[1.211s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/share/dynamixel_sdk/control_table/xc330_m181_fw52.model
+[1.224s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/share/dynamixel_sdk/control_table/xc330_m288.model
+[1.238s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/share/dynamixel_sdk/control_table/xc330_m288_fw52.model
+[1.255s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/share/dynamixel_sdk/control_table/xc330_t181.model
+[1.274s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/share/dynamixel_sdk/control_table/xc330_t181_fw52.model
+[1.294s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/share/dynamixel_sdk/control_table/xc330_t288.model
+[1.309s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/share/dynamixel_sdk/control_table/xc330_t288_fw52.model
+[1.326s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/share/dynamixel_sdk/control_table/xc430_w150.model
+[1.341s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/share/dynamixel_sdk/control_table/xc430_w240.model
+[1.354s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/share/dynamixel_sdk/control_table/xd430_t210.model
+[1.365s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/share/dynamixel_sdk/control_table/xd430_t350.model
+[1.399s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/share/dynamixel_sdk/control_table/xd540_t150.model
+[1.431s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/share/dynamixel_sdk/control_table/xd540_t270.model
+[1.450s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/share/dynamixel_sdk/control_table/xh430_v210.model
+[1.494s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/share/dynamixel_sdk/control_table/xh430_v350.model
+[1.518s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/share/dynamixel_sdk/control_table/xh430_w210.model
+[1.541s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/share/dynamixel_sdk/control_table/xh430_w350.model
+[1.565s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/share/dynamixel_sdk/control_table/xh540_v150.model
+[1.583s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/share/dynamixel_sdk/control_table/xh540_v270.model
+[1.605s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/share/dynamixel_sdk/control_table/xh540_w150.model
+[1.641s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/share/dynamixel_sdk/control_table/xh540_w270.model
+[1.666s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/share/dynamixel_sdk/control_table/xl320.model
+[1.694s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/share/dynamixel_sdk/control_table/xl330_m077.model
+[1.726s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/share/dynamixel_sdk/control_table/xl330_m077_fw52.model
+[1.756s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/share/dynamixel_sdk/control_table/xl330_m288.model
+[1.785s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/share/dynamixel_sdk/control_table/xl330_m288_fw52.model
+[1.815s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/share/dynamixel_sdk/control_table/xl430_w250.model
+[1.843s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/share/dynamixel_sdk/control_table/xm430_w210.model
+[1.861s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/share/dynamixel_sdk/control_table/xm430_w350.model
+[1.890s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/share/dynamixel_sdk/control_table/xm540_w150.model
+[1.908s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/share/dynamixel_sdk/control_table/xm540_w270.model
+[1.926s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/share/dynamixel_sdk/control_table/xw430_t200.model
+[1.944s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/share/dynamixel_sdk/control_table/xw430_t333.model
+[1.961s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/share/dynamixel_sdk/control_table/xw540_h260.model
+[1.978s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/share/dynamixel_sdk/control_table/xw540_t140.model
+[2.004s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/share/dynamixel_sdk/control_table/xw540_t260.model
+[2.037s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/share/dynamixel_sdk/control_table/ym070_210_a051.model
+[2.055s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/share/dynamixel_sdk/control_table/ym070_210_a099.model
+[2.072s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/share/dynamixel_sdk/control_table/ym070_210_b001.model
+[2.090s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/share/dynamixel_sdk/control_table/ym070_210_m001.model
+[2.108s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/share/dynamixel_sdk/control_table/ym070_210_r051.model
+[2.127s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/share/dynamixel_sdk/control_table/ym070_210_r099.model
+[2.146s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/share/dynamixel_sdk/control_table/ym080_230_a051.model
+[2.176s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/share/dynamixel_sdk/control_table/ym080_230_a099.model
+[2.193s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/share/dynamixel_sdk/control_table/ym080_230_b001.model
+[2.210s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/share/dynamixel_sdk/control_table/ym080_230_m001.model
+[2.228s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/share/dynamixel_sdk/control_table/ym080_230_r051.model
+[2.245s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/share/dynamixel_sdk/control_table/ym080_230_r099.model
+[2.262s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/share/dynamixel_sdk/environment/pythonpath.sh
+[2.279s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/share/dynamixel_sdk/environment/pythonpath.dsv
+[2.297s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk-4.0.3-py3.12.egg-info/PKG-INFO
+[2.314s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk-4.0.3-py3.12.egg-info/SOURCES.txt
+[2.333s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk-4.0.3-py3.12.egg-info/dependency_links.txt
+[2.351s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk-4.0.3-py3.12.egg-info/top_level.txt
+[2.371s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/__init__.py
+[2.388s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_bulk_read.cpp
+[2.404s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_bulk_read.py
+[2.422s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_bulk_write.cpp
+[2.454s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_bulk_write.py
+[2.484s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_fast_bulk_read.cpp
+[2.499s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_fast_sync_read.cpp
+[2.516s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_handler.cpp
+[2.551s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_sync_read.cpp
+[2.571s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_sync_read.py
+[2.595s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_sync_write.cpp
+[2.624s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_sync_write.py
+[2.667s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/packet_handler.cpp
+[2.692s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/packet_handler.py
+[2.706s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/port_handler.cpp
+[2.733s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/port_handler.py
+[2.766s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/port_handler_arduino.cpp
+[2.777s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/port_handler_linux.cpp
+[2.791s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/port_handler_mac.cpp
+[2.809s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/port_handler_windows.cpp
+[2.851s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/protocol1_packet_handler.cpp
+[2.877s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/protocol1_packet_handler.py
+[2.905s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/protocol2_packet_handler.cpp
+[2.943s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/protocol2_packet_handler.py
+[2.964s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/robotis_def.py
+[2.991s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk-4.0.3-py3.12.egg-info/PKG-INFO
+[3.003s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk-4.0.3-py3.12.egg-info/SOURCES.txt
+[3.031s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk-4.0.3-py3.12.egg-info/dependency_links.txt
+[3.052s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk-4.0.3-py3.12.egg-info/top_level.txt
+[3.067s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/__init__.py
+[3.087s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/connector.cpp
+[3.103s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/connector.py
+[3.115s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/control_table.cpp
+[3.134s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/control_table.py
+[3.147s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/data_types.py
+[3.165s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/dynamixel_error.cpp
+[3.181s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/dynamixel_error.py
+[3.197s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/group_executor.cpp
+[3.216s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/group_executor.py
+[3.231s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/motor.cpp
+[3.240s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/motor.py
+[3.255s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.sh
+[3.271s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.dsv
+[3.285s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk
+[3.308s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk
+[3.331s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.sh
+[3.345s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.dsv
+[3.361s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/share/dynamixel_sdk/environment/path.sh
+[3.377s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/share/dynamixel_sdk/environment/path.dsv
+[3.394s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/share/dynamixel_sdk/local_setup.bash
+[3.411s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/share/dynamixel_sdk/local_setup.sh
+[3.428s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/share/dynamixel_sdk/local_setup.zsh
+[3.443s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/share/dynamixel_sdk/local_setup.dsv
+[3.459s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/share/dynamixel_sdk/package.dsv
+[3.477s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/share/ament_index/resource_index/packages/dynamixel_sdk
+[3.498s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_targets-extras.cmake
+[3.509s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.524s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_libraries-extras.cmake
+[3.539s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig.cmake
+[3.555s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig-version.cmake
+[3.571s] -- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/share/dynamixel_sdk/package.xml
+[3.587s] -- Installing: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/lib/libdynamixel_sdk.so
+[3.708s] Listing '/home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk'...
+[3.709s] Compiling '/home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/__init__.py'...
+[3.709s] Compiling '/home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_bulk_read.py'...
+[3.709s] Compiling '/home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_bulk_write.py'...
+[3.710s] Compiling '/home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_sync_read.py'...
+[3.711s] Compiling '/home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_sync_write.py'...
+[3.711s] Compiling '/home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/packet_handler.py'...
+[3.712s] Compiling '/home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/port_handler.py'...
+[3.712s] Compiling '/home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/protocol1_packet_handler.py'...
+[3.712s] Compiling '/home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/protocol2_packet_handler.py'...
+[3.712s] Compiling '/home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/robotis_def.py'...
+[3.829s] Listing '/home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk'...
+[3.830s] Compiling '/home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/__init__.py'...
+[3.830s] Compiling '/home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/connector.py'...
+[3.830s] Compiling '/home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/control_table.py'...
+[3.831s] Compiling '/home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/data_types.py'...
+[3.831s] Compiling '/home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/dynamixel_error.py'...
+[3.831s] Compiling '/home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/group_executor.py'...
+[3.832s] Compiling '/home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/motor.py'...
+[3.841s] -- Installing: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkExport.cmake
+[3.841s] -- Installing: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkExport-noconfig.cmake
+[3.848s] Invoked command in '/home/yubinkim/workspace/common_packages/build_jazzy/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yubinkim/workspace/hexa_teleoperation/install_jazzy/dynamixel_test_ctrl:/home/yubinkim/workspace/omni_hexa/install_jazzy/dynamixel_test_ctrl:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yubinkim/workspace/common_packages/build_jazzy/dynamixel_sdk

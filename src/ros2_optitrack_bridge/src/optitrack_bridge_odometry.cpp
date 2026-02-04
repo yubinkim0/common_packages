@@ -56,6 +56,7 @@ void OptitrackBridgeOdometryNode::loop_() {
         filter->pose_cb(pose_msg);
 
         Eigen::Vector3d lin_vel = filter->getVelocity();
+        Eigen::Vector3d ang_vel = filter->getAngularVelocity();
 
         nav_msgs::msg::Odometry odom_msg;
         odom_msg.header = pose_msg.header;
@@ -64,6 +65,9 @@ void OptitrackBridgeOdometryNode::loop_() {
         odom_msg.twist.twist.linear.x = lin_vel.x();
         odom_msg.twist.twist.linear.y = lin_vel.y();
         odom_msg.twist.twist.linear.z = lin_vel.z();
+        odom_msg.twist.twist.angular.x = ang_vel.x();
+        odom_msg.twist.twist.angular.y = ang_vel.y();
+        odom_msg.twist.twist.angular.z = ang_vel.z();
 
         if (odom_publishers_.find(name) == odom_publishers_.end()) {
             std::string topic_name = pose_prefix_ + name;

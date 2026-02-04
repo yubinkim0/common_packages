@@ -1,0 +1,29 @@
+[ 15%] Built target dummy
+[ 46%] Built target px4
+[ 69%] Built target pose
+[100%] Built target odometry
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/yubinkim/workspace/common_packages/install_jazzy/ros2_optitrack_bridge/share/ros2_optitrack_bridge/environment/library_path.sh
+-- Up-to-date symlink: /home/yubinkim/workspace/common_packages/install_jazzy/ros2_optitrack_bridge/share/ros2_optitrack_bridge/environment/library_path.dsv
+-- Up-to-date symlink: /home/yubinkim/workspace/common_packages/install_jazzy/ros2_optitrack_bridge/lib/ros2_optitrack_bridge/pose
+-- Up-to-date symlink: /home/yubinkim/workspace/common_packages/install_jazzy/ros2_optitrack_bridge/lib/ros2_optitrack_bridge/odometry
+-- Up-to-date symlink: /home/yubinkim/workspace/common_packages/install_jazzy/ros2_optitrack_bridge/lib/ros2_optitrack_bridge/px4
+-- Up-to-date symlink: /home/yubinkim/workspace/common_packages/install_jazzy/ros2_optitrack_bridge/lib/ros2_optitrack_bridge/dummy
+-- Up-to-date symlink: /home/yubinkim/workspace/common_packages/install_jazzy/ros2_optitrack_bridge/lib/libNatNetLibShared.so
+-- Up-to-date symlink: /home/yubinkim/workspace/common_packages/install_jazzy/ros2_optitrack_bridge/share/ament_index/resource_index/package_run_dependencies/ros2_optitrack_bridge
+-- Up-to-date symlink: /home/yubinkim/workspace/common_packages/install_jazzy/ros2_optitrack_bridge/share/ament_index/resource_index/parent_prefix_path/ros2_optitrack_bridge
+-- Up-to-date symlink: /home/yubinkim/workspace/common_packages/install_jazzy/ros2_optitrack_bridge/share/ros2_optitrack_bridge/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/yubinkim/workspace/common_packages/install_jazzy/ros2_optitrack_bridge/share/ros2_optitrack_bridge/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/yubinkim/workspace/common_packages/install_jazzy/ros2_optitrack_bridge/share/ros2_optitrack_bridge/environment/path.sh
+-- Up-to-date symlink: /home/yubinkim/workspace/common_packages/install_jazzy/ros2_optitrack_bridge/share/ros2_optitrack_bridge/environment/path.dsv
+-- Up-to-date symlink: /home/yubinkim/workspace/common_packages/install_jazzy/ros2_optitrack_bridge/share/ros2_optitrack_bridge/local_setup.bash
+-- Up-to-date symlink: /home/yubinkim/workspace/common_packages/install_jazzy/ros2_optitrack_bridge/share/ros2_optitrack_bridge/local_setup.sh
+-- Up-to-date symlink: /home/yubinkim/workspace/common_packages/install_jazzy/ros2_optitrack_bridge/share/ros2_optitrack_bridge/local_setup.zsh
+-- Up-to-date symlink: /home/yubinkim/workspace/common_packages/install_jazzy/ros2_optitrack_bridge/share/ros2_optitrack_bridge/local_setup.dsv
+-- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/ros2_optitrack_bridge/share/ros2_optitrack_bridge/package.dsv
+-- Up-to-date symlink: /home/yubinkim/workspace/common_packages/install_jazzy/ros2_optitrack_bridge/share/ament_index/resource_index/packages/ros2_optitrack_bridge
+-- Up-to-date symlink: /home/yubinkim/workspace/common_packages/install_jazzy/ros2_optitrack_bridge/share/ros2_optitrack_bridge/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/yubinkim/workspace/common_packages/install_jazzy/ros2_optitrack_bridge/share/ros2_optitrack_bridge/cmake/ros2_optitrack_bridgeConfig.cmake
+-- Up-to-date symlink: /home/yubinkim/workspace/common_packages/install_jazzy/ros2_optitrack_bridge/share/ros2_optitrack_bridge/cmake/ros2_optitrack_bridgeConfig-version.cmake
+-- Up-to-date symlink: /home/yubinkim/workspace/common_packages/install_jazzy/ros2_optitrack_bridge/share/ros2_optitrack_bridge/package.xml

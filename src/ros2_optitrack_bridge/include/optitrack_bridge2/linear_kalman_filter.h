@@ -52,6 +52,11 @@ private:
     geometry_msgs::msg::TwistStamped twist, twist_raw;
     nav_msgs::msg::Odometry odom;
 
+    bool ang_initialized_ {false};
+    rclcpp::Time ang_t_old_;
+    Eigen::Quaterniond q_old_;              // 이전 quaternion
+    Eigen::Vector3d omega_est_{0,0,0};      // 추정된 body 각속도
+
     rclcpp::Time t_old, t_new;
     bool initialized = false;
 
@@ -61,6 +66,8 @@ private:
     static QMatrix computeQ(const GMatrix &G, const MVector &sigma_Q);
     void update(const double &dt, const geometry_msgs::msg::PoseStamped& msg);
     RMatrix computeR();
+    void updateAngularVelocity_(const geometry_msgs::msg::PoseStamped& msg);
+
 };
 
 

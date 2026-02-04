@@ -1,0 +1,54 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found dynamixel_sdk: 4.0.3 (/home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_sdk/share/dynamixel_sdk/cmake)
+-- Configuring done (1.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/yubinkim/workspace/common_packages/build_jazzy/dynamixel_workbench_toolbox
+[ 20%] [32mBuilding CXX object CMakeFiles/dynamixel_workbench_toolbox.dir/src/dynamixel_workbench_toolbox/dynamixel_item.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/dynamixel_workbench_toolbox.dir/src/dynamixel_workbench_toolbox/dynamixel_workbench.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/dynamixel_workbench_toolbox.dir/src/dynamixel_workbench_toolbox/dynamixel_tool.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/dynamixel_workbench_toolbox.dir/src/dynamixel_workbench_toolbox/dynamixel_driver.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libdynamixel_workbench_toolbox.so[0m
+[100%] Built target dynamixel_workbench_toolbox
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_workbench_toolbox/include/dynamixel_workbench_toolbox/dynamixel_workbench_toolbox/dynamixel_driver.h
+-- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_workbench_toolbox/include/dynamixel_workbench_toolbox/dynamixel_workbench_toolbox/dynamixel_item.h
+-- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_workbench_toolbox/include/dynamixel_workbench_toolbox/dynamixel_workbench_toolbox/dynamixel_tool.h
+-- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_workbench_toolbox/include/dynamixel_workbench_toolbox/dynamixel_workbench_toolbox/dynamixel_workbench.h
+-- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/environment/library_path.sh
+-- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/environment/library_path.dsv
+-- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_workbench_toolbox/share/ament_index/resource_index/package_run_dependencies/dynamixel_workbench_toolbox
+-- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_workbench_toolbox/share/ament_index/resource_index/parent_prefix_path/dynamixel_workbench_toolbox
+-- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/environment/ament_prefix_path.sh
+-- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/environment/ament_prefix_path.dsv
+-- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/environment/path.sh
+-- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/environment/path.dsv
+-- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/local_setup.bash
+-- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/local_setup.sh
+-- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/local_setup.zsh
+-- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/local_setup.dsv
+-- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/package.dsv
+-- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_workbench_toolbox/share/ament_index/resource_index/packages/dynamixel_workbench_toolbox
+-- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/cmake/dynamixel_workbench_toolboxConfig.cmake
+-- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/cmake/dynamixel_workbench_toolboxConfig-version.cmake
+-- Symlinking: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/package.xml
+-- Installing: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_workbench_toolbox/lib/libdynamixel_workbench_toolbox.so
+-- Set non-toolchain portion of runtime path of "/home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_workbench_toolbox/lib/libdynamixel_workbench_toolbox.so" to ""
+-- Installing: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/cmake/export_dynamixel_workbench_toolboxExport.cmake
+-- Installing: /home/yubinkim/workspace/common_packages/install_jazzy/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/cmake/export_dynamixel_workbench_toolboxExport-noconfig.cmake
