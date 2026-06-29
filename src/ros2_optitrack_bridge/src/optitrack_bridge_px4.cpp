@@ -13,7 +13,7 @@ namespace optitrack {
         // parameter setting
         this->declare_parameter<std::string>("pose_prefix", "optitrack");
         this->declare_parameter<std::string>("frame_id", "world");
-        this->declare_parameter<std::string>("target_name", "yb_omni_hexa");
+        this->declare_parameter<std::string>("target_name", "yb_quad");
         this->declare_parameter<double>("hz", 100);
         this->get_parameter("pose_prefix", pose_prefix_);
         this->get_parameter("frame_id", frame_id_);

@@ -120,6 +120,14 @@ void NatNetWrapper::data_handler(sFrameOfMocapData* data, void* p_user_data) {
     NatNet_TimecodeStringify(data->Timecode, data->TimecodeSubframe, time_code_cstr, 128);
 
     // rigid bodies
+    // The NatNet data thread can fire this callback right after Connect, BEFORE
+    // GetDataDescriptions() populates body_names_/poses_. Indexing body_names_[i]
+    // (in the warning below) on the still-empty vector then segfaults. Skip until
+    // descriptions are loaded and sized.
+    if(instance().body_names_.empty()
+       || instance().poses_.size() != instance().body_names_.size()) {
+        return;
+    }
     for(int i = 0; i < data->nRigidBodies; ++i) {
         // 0x01 : bool, rigid body was successfully tracked in this frame
         bool tracking_valid = data->RigidBodies[i].params & 0x01;
@@ -138,7 +146,7 @@ void NatNetWrapper::data_handler(sFrameOfMocapData* data, void* p_user_data) {
                 instance().poses_[i].pose.orientation.w = data->RigidBodies[i].qw;
             }
         }
-        else {
+        else if(i < static_cast<int>(instance().body_names_.size())) {
             RCLCPP_WARN_THROTTLE(
                 instance().logger_, instance().clock_, 500,
                 "%s pose tracking invalid", instance().body_names_[i].c_str()
