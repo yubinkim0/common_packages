@@ -143,6 +143,20 @@ namespace optitrack {
         // the filter was smoothing away real vehicle motion the controller then
         // could not correct.
         //
+        // 2026-08-03 FOLLOW-UP: THIS CHANGE HAS NO EFFECT. EKF2 floors the EV
+        // position covariance —
+        //   ev_pos_control.cpp:145  max(pos_cov, sq(EKF2_EVP_NOISE), sq(0.01f))
+        // so anything at or below 1e-4 is clamped back to 1e-4, and the old value
+        // was already exactly that floor. Flight-verified: bag 15_46_08 with 1e-6
+        // showed the same EKF-vs-mocap disagreement as 15_26_06 with 1e-4
+        // (E 1.47 vs 1.46 cm). Left at 1e-6 because it is the physically honest
+        // number, not because it does anything.
+        //
+        // The knob that DOES move the position covariance is orientation_variance
+        // below: ev_pos_control.cpp:109 floors pos_cov with the max orientation
+        // variance, and 0.001 there implies a 3.2 cm position sigma — larger than
+        // the 1 cm floor. Check the surrounding condition before changing it.
+        //
         // STILL A HARDCODED CONSTANT and still isotropic. The E axis has 2.3x the
         // N axis's EKF-vs-mocap disagreement, which a single number cannot
         // express; the right fix is per-axis variance from the NatNet marker
