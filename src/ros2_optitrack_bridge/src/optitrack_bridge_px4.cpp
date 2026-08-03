@@ -125,13 +125,31 @@ namespace optitrack {
 
         float nan_val = std::numeric_limits<float>::quiet_NaN();
 
+        // Velocity left NaN on purpose: PX4 EKF2 estimates velocity from EV
+        // position + IMU, which is the validated/flight-proven setup. Feeding a
+        // position-derived (bridge Kalman) velocity adds no independent info and is
+        // correlated with the position measurement — reverted 2026-07-24.
         visual_odom_msg.velocity[0] = nan_val;
         visual_odom_msg.velocity[1] = nan_val;
         visual_odom_msg.velocity[2] = nan_val;
 
-        visual_odom_msg.position_variance[0] = 0.0001;
-        visual_odom_msg.position_variance[1] = 0.0001;
-        visual_odom_msg.position_variance[2] = 0.0001;
+        // 2026-08-03: 1e-4 -> 1e-6 (sigma 1 cm -> 1 mm). EKF2_EV_NOISE_MD makes
+        // EKF2 use this reported variance directly, and 1 cm is far more
+        // pessimistic than OptiTrack actually is, so the filter was leaning on
+        // its IMU prediction instead of the measurement. Measured on aerial_pns
+        // bag 2026_08_03-15_26_06 (hover, 64 s): the EKF disagreed with raw mocap
+        // by 0.62 / 1.45 / 0.24 cm RMS on N / E / D, and raw mocap showed a LARGER
+        // deviation from setpoint than the EKF did (2.68 vs 1.96 cm on E) — i.e.
+        // the filter was smoothing away real vehicle motion the controller then
+        // could not correct.
+        //
+        // STILL A HARDCODED CONSTANT and still isotropic. The E axis has 2.3x the
+        // N axis's EKF-vs-mocap disagreement, which a single number cannot
+        // express; the right fix is per-axis variance from the NatNet marker
+        // residual. Verify against a motors-off static log before trusting this.
+        visual_odom_msg.position_variance[0] = 1e-6;
+        visual_odom_msg.position_variance[1] = 1e-6;
+        visual_odom_msg.position_variance[2] = 1e-6;
 
         visual_odom_msg.orientation_variance[0] = 0.001;
         visual_odom_msg.orientation_variance[1] = 0.001;
